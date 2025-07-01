@@ -26,7 +26,7 @@ def generate_image_not_watermarking(prompt: str):
     return images
 
 if __name__ == "__main__":
-    prompt = "A cheerful little boy holding a giant sunflower, standing in a bright summer field, whimsical fairytale style"
+    prompt = "A majestic golden retriever sitting on a mountain peak with clouds below, epic adventure style"
     try:
         images = generate_image(prompt)
         not_watermarking_image = generate_image_not_watermarking(prompt)
